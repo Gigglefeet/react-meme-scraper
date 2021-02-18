@@ -7,7 +7,7 @@ export default function MemeGen() {
   const [topText, setTopText] = useState('');
   const [bottomText, setBottomText] = useState('');
   const [memes, setMemes] = useState([]);
-  const [img, setImg] = useState('aag');
+  const [img, setImg] = useState('dwight');
 
   // enter text for the top and bottom of the meme
 
@@ -43,7 +43,7 @@ export default function MemeGen() {
         }}
       >
         {memes.map((meme) => (
-          <option key={meme.key} value={meme.key}>
+          <option key={meme.id} value={meme.id}>
             {meme.name}
           </option>
         ))}
