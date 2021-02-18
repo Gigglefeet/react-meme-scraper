@@ -7,7 +7,7 @@ export default function MemeGen() {
   const [topText, setTopText] = useState('');
   const [bottomText, setBottomText] = useState('');
   const [memes, setMemes] = useState([]);
-  const [img, setImg] = useState('dwight');
+  const [img, setImg] = useState('apcr');
 
   // enter text for the top and bottom of the meme
 
